@@ -1,0 +1,56 @@
+.img__gallery{
+    background-color: $secondary-color;
+}
+@include tablet{
+.gallery__container{
+    max-width: $tablet-width;
+    margin: 0 auto; 
+    padding: 1.6rem; 
+}
+}
+
+@include desktop{ 
+    .gallery__container{
+        max-width: $desktop-width; 
+        margin: 0 auto;
+    }
+}
+
+.gallery__title{
+    padding: 2rem 0;
+    margin-left: 2rem;
+}
+@include tablet{
+.gallery__title{
+    margin-left: 2rem;
+    font-size: 3rem; 
+   }
+}
+@include desktop{
+    .gallery__title{
+        margin: 2.4rem 3rem; 
+    }
+}
+
+.gallery__image-box{
+    @include flexModification(column);
+    gap: 2rem; 
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+@include tablet{
+    .gallery__image-box{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@include desktop{
+    .gallery__image-box{
+        margin: 3.2rem 10rem; 
+        padding: 0rem 0; 
+    }
+}

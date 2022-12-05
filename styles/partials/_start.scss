@@ -1,0 +1,36 @@
+.start {
+    background: url("../assets/images/hero-bio.jpg") rgba($primary-color, 0.5);
+    background-blend-mode: hue;
+    background-size: cover;
+    background-position: center;
+  }
+  .start__heading {
+    color: $secondary-color;
+    font-size: 2rem;
+  }
+  
+  .start__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 160%;
+    margin-left: 2rem;
+    height: 17rem;
+    
+  }
+
+    @include tablet{
+      .start__container{
+          height: 35rem; 
+          padding: 2rem; 
+          max-width: $tablet-width;
+      }
+  }
+
+  @include desktop{
+      .start__container{
+          max-width: $desktop-width; 
+          height: 55rem; 
+          padding: 12rem; 
+      }
+  }

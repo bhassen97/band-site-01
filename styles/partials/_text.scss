@@ -1,0 +1,109 @@
+@font-face{
+    font-family: "Avenir next";
+    src: url(/assets/fonts/AvenirNextLTPro.ttf) format("truetype");
+    font-weight: 400; 
+
+}
+
+@font-face{
+    font-family: "Avenir Next";
+    src: url(/assets/fonts/AvenirNextLTProDemi.ttf) format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Avenir Next";
+    src: url(/assets/fonts/AvenirNextLTProBold.ttf) format("truetype");
+    font-weight: 700;
+}
+
+@include tablet {
+      .start__heading{
+          font-size: 5rem; 
+          font-weight: 600;
+      }
+    }
+/* content font specification */
+.content__header{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+@include tablet{
+    .content__header{
+        font-size: 3rem; 
+        font-weight: 600; 
+    }
+}
+@include desktop{
+    .content__header{
+        font-size: 3rem; 
+        font-weight: 400;
+    }
+}
+
+.content__text {
+    font-size: 1.2rem; 
+}
+
+@include tablet {
+    .content__text{
+        font-size: 2rem;
+    }
+}
+
+.content__heading{
+    font-size: 1.5rem; 
+    font-weight: 400;
+}
+
+@include tablet{
+    .content__heading{
+        font-size: 2rem; 
+        font-weight: 600; 
+    }
+}
+
+.content__info{
+    font-size: 1.3rem; 
+}
+
+/* footer font specification */
+
+.footer__heading-text {
+    font-size: 2rem; 
+    font-weight: 600;
+}
+
+@include tablet {
+    .footer__heading-text {
+        font-size: 3rem; 
+    }
+}
+
+.footer__contact{
+    font-size: 1.2rem; 
+}
+
+@include desktop {
+    .footer__contact {
+        font-size: 1.3rem;
+    } 
+}
+
+.footer__address {
+    font-size: 1.2rem;
+}
+
+.footer__text{
+    font-size: 1.2rem
+}
+
+.footer__mail{
+    font-size: 1.2rem;
+}
+
+.footer__legal{
+    font-size: 1.2rem; 
+}
