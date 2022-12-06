@@ -95,19 +95,11 @@
 
 html {
   height: 100%;
-  font-size: 70%;
   box-sizing: border-box;
+  font-size: 70%;
 }
 
-body {
-  min-height: 100vh;
-  line-height: 1.5;
-  display: flex;
-  flex-direction: column;
-  font-family: "Avenir Next";
-}
-
-img, picture {
+img {
   max-width: 100%;
   display: block;
 }
@@ -159,9 +151,9 @@ img, picture {
 }
 @media (min-width: 1280px) {
   .content__container {
-    max-width: 130rem;
-    margin: 0rem;
-    margin-top: 2rem;
+    padding: 2rem 0rem 3rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
 }
 .content__header {
@@ -170,9 +162,8 @@ img, picture {
 
 @media (min-width: 1280px) {
   .content__header {
-    padding-left: 3rem;
-    font-size: 3rem;
-    font-weight: 600;
+    padding-top: 2rem;
+    font-weight: 700;
   }
 }
 .content-section-img-container {
@@ -187,7 +178,7 @@ img, picture {
 }
 @media (min-width: 1280px) {
   .content-section-img-container {
-    width: 50%;
+    width: 100%;
   }
 }
 .band__image {
@@ -196,7 +187,12 @@ img, picture {
 
 @media (min-width: 768px) {
   .band__image {
-    padding: 0rem 6rem;
+    max-width: 400%;
+  }
+}
+@media (min-width: 1280px) {
+  .band__image {
+    size: stretch;
   }
 }
 .content__text {
@@ -232,7 +228,8 @@ img, picture {
 }
 @media (min-width: 1280px) {
   .content__heading {
-    margin-left: 10rem;
+    margin-left: 11.3rem;
+    padding-bottom: 2rem;
   }
 }
 @media (min-width: 768px) {
@@ -382,8 +379,8 @@ img, picture {
 
 @media (min-width: 768px) {
   .footer__information {
-    -moz-column-gap: 5rem;
-         column-gap: 5rem;
+    -moz-column-gap: 2.9rem;
+         column-gap: 2.9rem;
     row-gap: 2rem;
     display: flex;
     flex-wrap: wrap;
@@ -465,7 +462,7 @@ img, picture {
 @media (min-width: 1280px) {
   .content__header {
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 600;
   }
 }
 .content__text {
@@ -526,4 +523,17 @@ img, picture {
 
 .footer__legal {
   font-size: 1.2rem;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  font-family: "Avenir Next";
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }/*# sourceMappingURL=bio.css.map */

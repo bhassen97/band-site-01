@@ -9,3 +9,15 @@
 @import './partials/text';
 
 
+body{
+    min-height: 100vh;
+     display: flex; 
+    flex-direction: column;
+    line-height: 1.5;
+    font-family: "Avenir Next";
+}
+
+img {
+    max-width: 100%;
+    display: block; 
+}

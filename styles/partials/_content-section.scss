@@ -11,9 +11,11 @@
 
 @include desktop{
     .content__container{
-        max-width: $desktop-width; 
-        margin: 0rem;
-        margin-top: 2rem;
+        padding: 2rem 0rem 3rem; 
+        margin-left: 10rem; 
+        margin-right: 10rem; 
+    
+        
     }
 }
 
@@ -23,9 +25,8 @@
 
 @include desktop{
     .content__header{
-        padding-left: 3rem;
-        font-size: 3rem; 
-        font-weight: 600;
+        padding-top: 2rem; 
+        font-weight: 700;
     }
 }
 
@@ -43,7 +44,7 @@
 }
 @include desktop {
     .content-section-img-container{
-        width: 50%
+       width: 100%;
     }
 }
 
@@ -53,9 +54,19 @@
 
 @include tablet {
     .band__image{
-        padding: 0rem 6rem;
+        max-width: 400%;
+        
     }
 }
+
+@include desktop {
+    .band__image {
+        size: stretch; 
+    }
+}
+
+
+
 
 .content__text {
     font-weight: 600;
@@ -93,7 +104,8 @@
 }
 @include desktop{
     .content__heading{
-        margin-left: 10rem;
+        margin-left: 11.3rem;
+        padding-bottom: 2rem; 
     }
 }
 
