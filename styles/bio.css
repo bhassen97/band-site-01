@@ -283,6 +283,7 @@ html {
   .gallery__title {
     margin-left: 2rem;
     font-size: 3.25rem;
+    font-weight: 600;
   }
 }
 @media (min-width: 1280px) {
@@ -477,6 +478,7 @@ html {
 @media (min-width: 768px) {
   .content__text {
     font-size: 2rem;
+    line-height: 30px;
     font-weight: 600;
   }
 }
