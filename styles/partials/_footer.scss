@@ -21,12 +21,13 @@
 }
 @include tablet {
   .footer__main-text {
-     margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     display: flex;
     align-items: center;
-    gap: 4rem;
+    gap: 2rem;
     }
 }
+
 @include desktop {
   .footer__main-text {
     gap: 3.2rem;
@@ -51,15 +52,19 @@
 @include tablet {
   .footer__icon-box {
     gap: 2.5rem;
-    padding: 2.4rem;
+    padding-top: 2.4rem;
+    padding-bottom: 1.5rem;
     }
 }
 
 .footer__social-media {
   display: flex;
   flex-direction: row;
+  width: 3rem; 
   justify-content: center;
   align-items: center;
+  height: 3rem;
+   
 }
 
 .footer__information {

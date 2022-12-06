@@ -19,20 +19,20 @@
 
 @include tablet {
       .start__heading{
-          font-size: 5rem; 
+          font-size: 5.4rem; 
           font-weight: 600;
       }
     }
-
+    
 /* content font specification */
 .content__header{
-    font-size: 2rem;
+    font-size: 2.15rem;
     font-weight: 600;
 }
 
 @include tablet{
     .content__header{
-        font-size: 3rem; 
+        font-size: 3.25rem; 
         font-weight: 600; 
     }
 }
@@ -45,12 +45,19 @@
 }
 
 .content__text {
-    font-size: 1.2rem; 
+    font-size: 1.25rem; 
 }
 
 @include tablet {
     .content__text{
         font-size: 2rem;
+        font-weight: 600;
+    }
+}
+@include tablet {
+    .weight {
+        font-weight: 600;
+        font-size: 1.5rem;
     }
 }
 
@@ -67,7 +74,13 @@
 }
 
 .content__info{
-    font-size: 1.3rem; 
+    font-size: 1.16rem; 
+}
+
+@include tablet {
+    .content__info {
+        font-size: 1.25rem; 
+    }
 }
 
 /* footer font specification */
