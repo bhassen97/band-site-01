@@ -8,8 +8,6 @@
     {@content};
 }
 
-
-
 @mixin flexModification ($direction){
     display: flex;
     flex-direction: $direction;

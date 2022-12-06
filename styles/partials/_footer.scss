@@ -47,13 +47,14 @@
   gap: 1rem;
   margin-bottom: 3rem;
 }
+
 @include tablet {
   .footer__icon-box {
     gap: 2.5rem;
     padding: 2.4rem;
-    
+    }
 }
-}
+
 .footer__social-media {
   display: flex;
   flex-direction: row;
