@@ -102,6 +102,7 @@ html {
   height: 100%;
   box-sizing: border-box;
   font-size: 70%;
+  line-height: 22px;
 }
 
 .start {
@@ -545,7 +546,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  line-height: 1.5;
   font-family: "Avenir Next";
 }
 
